@@ -1,0 +1,17 @@
+
+
+
+POST https://localhost:5001/caminho/Livro/create
+Content-Type: application/json
+
+{
+
+"Titulo": "Percy chase",
+"Isbn": "1235474",
+"Categoria": "Aventura",
+"Autor": "Rick Riordan"
+
+}
+
+###
+GET https://localhost:5001/caminho/Livro/list
